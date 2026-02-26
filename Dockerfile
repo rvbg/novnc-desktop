@@ -1,5 +1,6 @@
-FROM debian:12
-ENV NOVNC_VERSION="v1.5.0"
+FROM debian:13
+# Clear browser cache after novnc upgrade
+ENV NOVNC_VERSION="v1.6.0"
 
 ENV DEBIAN_FRONTEND=noninteractive 
 
